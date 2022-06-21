@@ -1,0 +1,225 @@
+<!doctype html>
+{% load static %}
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>College Notes</title>
+    <style>
+        #anchor {
+            color: black;
+            background-color: white;
+            padding: 8px;
+            margin: 2px;
+            border-radius: 3px;
+        }
+    </style>
+</head>
+
+<body style="background-color: #c4e0e5;">
+    <header class="text-gray-600 body-font">
+        <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+            <a class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round"
+                    stroke-linejoin="round" stroke-width="2" class="w-10 h-10 text-white p-2 bg-indigo-500 rounded-full"
+                    viewBox="0 0 24 24">
+                    <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
+                </svg>
+                <span class="ml-3 text-xl">College Notes</span>
+            </a>
+
+
+            <!-- <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-1" viewBox="0 0 24 24"> -->
+            <path d="M5 12h14M12 5l7 7-7 7"></path>
+            <!-- </svg> -->
+            </button>
+        </div>
+    </header>
+    <div class="sm:flex flex-wrap justify-center items-center text-center gap-8">
+        <div class="w-full sm:w-1/2 md:w-1/2 lg:w-1/4 px-4 py-4 bg-white mt-6  shadow-lg rounded-lg dark:bg-gray-800">
+            <div class="flex-shrink-0">
+                <div class="flex items-center mx-auto justify-center h-12 w-12 rounded-md bg-indigo-500 text-white">
+                    <svg width="20" height="20" fill="currentColor" class="h-6 w-6" viewBox="0 0 1792 1792"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M491 1536l91-91-235-235-91 91v107h128v128h107zm523-928q0-22-22-22-10 0-17 7l-542 542q-7 7-7 17 0 22 22 22 10 0 17-7l542-542q7-7 7-17zm-54-192l416 416-832 832h-416v-416zm683 96q0 53-37 90l-166 166-416-416 166-165q36-38 90-38 53 0 91 38l235 234q37 39 37 91z">
+                        </path>
+                    </svg>
+                </div>
+            </div>
+            <h3 class="text-2xl sm:text-xl text-gray-700 font-semibold dark:text-white py-4">
+                Advanced Java
+            </h3>
+            <p class="text-md  text-gray-500 dark:text-gray-300 py-4">
+                Advanced Java is everything that goes beyond Core Java – most importantly the APIs defined in Java Enterprise Edition, includes Servlet programming, Web Services
+            </p>
+            <a id="anchor" onMouseOver="this.style.backgroundColor='#b3f0ff'"
+                onMouseOut="this.style.backgroundColor='white'" class="mt-3 text-indigo-500 inline-flex items-center"
+                href="http://localhost:8000/Notes/table/Advanced Java/" target="_blank"> Notes </a>
+        </div>
+        <div
+            class="w-full sm:w-1/2 md:w-1/2 lg:w-1/4 px-4 py-4 mt-6 sm:mt-16 md:mt-20 lg:mt-24 bg-white shadow-lg rounded-lg dark:bg-gray-800">
+            <div class="flex-shrink-0">
+                <div class="flex items-center mx-auto justify-center h-12 w-12 rounded-md bg-indigo-500 text-white">
+                    <svg width="20" height="20" fill="currentColor" class="h-6 w-6" viewBox="0 0 1792 1792"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M491 1536l91-91-235-235-91 91v107h128v128h107zm523-928q0-22-22-22-10 0-17 7l-542 542q-7 7-7 17 0 22 22 22 10 0 17-7l542-542q7-7 7-17zm-54-192l416 416-832 832h-416v-416zm683 96q0 53-37 90l-166 166-416-416 166-165q36-38 90-38 53 0 91 38l235 234q37 39 37 91z">
+                        </path>
+                    </svg>
+                </div>
+            </div>
+            <h3 class="text-2xl sm:text-xl text-gray-700 font-semibold dark:text-white py-4">
+                Linux
+            </h3>
+            <p class="text-md text-gray-500 dark:text-gray-300 py-4">
+                Linux is an open source operating system (OS). An operating system is the software that directly manages a system’s hardware and resources, like CPU, memory, and storage.            </p>
+            <a id="anchor" onMouseOver="this.style.backgroundColor='#b3f0ff'"
+                onMouseOut="this.style.backgroundColor='white'" class="mt-3 text-indigo-500 inline-flex items-center"
+                href="http://localhost:8000/Notes/table/Linux/" target="_blank"> Notes </a>
+
+        </div>
+        <div class="w-full sm:w-1/2 md:w-1/2 lg:w-1/4 mt-6  px-4 py-4 bg-white shadow-lg rounded-lg dark:bg-gray-800">
+            <div class="flex-shrink-0">
+                <div class="flex items-center mx-auto justify-center h-12 w-12 rounded-md bg-indigo-500 text-white">
+                    <svg width="20" height="20" fill="currentColor" class="h-6 w-6" viewBox="0 0 1792 1792"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M491 1536l91-91-235-235-91 91v107h128v128h107zm523-928q0-22-22-22-10 0-17 7l-542 542q-7 7-7 17 0 22 22 22 10 0 17-7l542-542q7-7 7-17zm-54-192l416 416-832 832h-416v-416zm683 96q0 53-37 90l-166 166-416-416 166-165q36-38 90-38 53 0 91 38l235 234q37 39 37 91z">
+                        </path>
+                    </svg>
+                </div>
+            </div>
+            <h3 class="text-2xl sm:text-xl text-gray-700 font-semibold dark:text-white py-4">
+                ASP.NET using C#.NET
+            </h3>
+            <p class="text-md  text-gray-500 dark:text-gray-300 py-4">
+                ASP.NET is a web application framework developed and marketed by Microsoft to allow programmers to build dynamic web sites.ASP.NET is a web application framework developed and marketed by Microsoft to allow programmers to build dynamic web sites.
+            </p>
+            <a id="anchor" onMouseOver="this.style.backgroundColor='#b3f0ff'"
+                onMouseOut="this.style.backgroundColor='white'" class="mt-3 text-indigo-500 inline-flex items-center"
+                href="http://localhost:8000/Notes/table/ASP.NET using C#.NET/" target="_blank"> Notes </a>
+
+        </div>
+    </div>
+
+    <div class="sm:flex flex-wrap justify-center items-center text-center gap-8">
+        <div class="w-full sm:w-1/2 md:w-1/2 lg:w-1/4 px-4 py-4 bg-white mt-6  shadow-lg rounded-lg dark:bg-gray-800">
+            <div class="flex-shrink-0">
+                <div class="flex items-center mx-auto justify-center h-12 w-12 rounded-md bg-indigo-500 text-white">
+                    <svg width="20" height="20" fill="currentColor" class="h-6 w-6" viewBox="0 0 1792 1792"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M491 1536l91-91-235-235-91 91v107h128v128h107zm523-928q0-22-22-22-10 0-17 7l-542 542q-7 7-7 17 0 22 22 22 10 0 17-7l542-542q7-7 7-17zm-54-192l416 416-832 832h-416v-416zm683 96q0 53-37 90l-166 166-416-416 166-165q36-38 90-38 53 0 91 38l235 234q37 39 37 91z">
+                        </path>
+                    </svg>
+                </div>
+            </div>
+            <h3 class="text-2xl sm:text-xl text-gray-700 font-semibold dark:text-white py-4">
+                Advanced DBMS
+            </h3>
+            <p class="text-md  text-gray-500 dark:text-gray-300 py-4">
+                An Active Database Management System (ADBMS) is an event-driven system in which schema or data changes generate events monitored by active rules. 
+            </p>
+            <a id="anchor" onMouseOver="this.style.backgroundColor='#b3f0ff'"
+                onMouseOut="this.style.backgroundColor='white'" class="mt-3 text-indigo-500 inline-flex items-center"
+                href="http://localhost:8000/Notes/table/Advanced DBMS/" target="_blank"> Notes </a>
+
+        </div>
+        <div
+            class="w-full sm:w-1/2 md:w-1/2 lg:w-1/4 px-4 py-4 mt-6 sm:mt-16 md:mt-20 lg:mt-24 bg-white shadow-lg rounded-lg dark:bg-gray-800">
+            <div class="flex-shrink-0">
+                <div class="flex items-center mx-auto justify-center h-12 w-12 rounded-md bg-indigo-500 text-white">
+                    <svg width="20" height="20" fill="currentColor" class="h-6 w-6" viewBox="0 0 1792 1792"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M491 1536l91-91-235-235-91 91v107h128v128h107zm523-928q0-22-22-22-10 0-17 7l-542 542q-7 7-7 17 0 22 22 22 10 0 17-7l542-542q7-7 7-17zm-54-192l416 416-832 832h-416v-416zm683 96q0 53-37 90l-166 166-416-416 166-165q36-38 90-38 53 0 91 38l235 234q37 39 37 91z">
+                        </path>
+                    </svg>
+                </div>
+            </div>
+            <h3 class="text-2xl sm:text-xl text-gray-700 font-semibold dark:text-white py-4">
+                Mobile Computing
+            </h3>
+            <p class="text-md text-gray-500 dark:text-gray-300 py-4">
+                Mobile computing is human–computer interaction in which a computer is expected to be transported during normal usage, which allows for the transmission of data, voice, and video.            </p>
+            <a id="anchor" onMouseOver="this.style.backgroundColor='#b3f0ff'"
+                onMouseOut="this.style.backgroundColor='white'" class="mt-3 text-indigo-500 inline-flex items-center"
+                href="http://localhost:8000/Notes/table/Mobile Computing/" target="_blank"> Notes </a>
+
+        </div>
+        <div class="w-full sm:w-1/2 md:w-1/2 lg:w-1/4 mt-6  px-4 py-4 bg-white shadow-lg rounded-lg dark:bg-gray-800">
+            <div class="flex-shrink-0">
+                <div class="flex items-center mx-auto justify-center h-12 w-12 rounded-md bg-indigo-500 text-white">
+                    <svg width="20" height="20" fill="currentColor" class="h-6 w-6" viewBox="0 0 1792 1792"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M491 1536l91-91-235-235-91 91v107h128v128h107zm523-928q0-22-22-22-10 0-17 7l-542 542q-7 7-7 17 0 22 22 22 10 0 17-7l542-542q7-7 7-17zm-54-192l416 416-832 832h-416v-416zm683 96q0 53-37 90l-166 166-416-416 166-165q36-38 90-38 53 0 91 38l235 234q37 39 37 91z">
+                        </path>
+                    </svg>
+                </div>
+            </div>
+            <h3 class="text-2xl sm:text-xl text-gray-700 font-semibold dark:text-white py-4">
+                PHP/MYSQL
+            </h3>
+            <p class="text-md  text-gray-500 dark:text-gray-300 py-4">
+                PHP is an open-source server-side scripting language that many devs use for web development.
+            </p>
+            <a id="anchor" onMouseOver="this.style.backgroundColor='#b3f0ff'"
+                onMouseOut="this.style.backgroundColor='white'" class="mt-3 text-indigo-500 inline-flex items-center"
+                href="http://localhost:8000/Notes/table/PHP-MySQL/" target="_blank"> Notes </a>
+
+        </div>
+
+        <div class="sm:flex flex-wrap justify-center items-center text-center gap-8">
+            <div
+                class="w-full sm:w-1/2 md:w-1/2 lg:w-1/4 px-4 py-4 bg-white mt-6  shadow-lg rounded-lg dark:bg-gray-800">
+                <div class="flex-shrink-0">
+                    <div class="flex items-center mx-auto justify-center h-12 w-12 rounded-md bg-indigo-500 text-white">
+                        <svg width="20" height="20" fill="currentColor" class="h-6 w-6" viewBox="0 0 1792 1792"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M491 1536l91-91-235-235-91 91v107h128v128h107zm523-928q0-22-22-22-10 0-17 7l-542 542q-7 7-7 17 0 22 22 22 10 0 17-7l542-542q7-7 7-17zm-54-192l416 416-832 832h-416v-416zm683 96q0 53-37 90l-166 166-416-416 166-165q36-38 90-38 53 0 91 38l235 234q37 39 37 91z">
+                            </path>
+                        </svg>
+                    </div>
+                </div>
+                <h3 class="text-2xl sm:text-xl text-gray-700 font-semibold dark:text-white py-4">
+                    CGMA
+                </h3>
+                <p class="text-md  text-gray-500 dark:text-gray-300 py-4">
+                    Computer Graphics Multimedia is content that uses a combination of different content forms such as text, audio, images, animations, video and interactive content. 
+                </p>
+                <a id="anchor" onMouseOver="this.style.backgroundColor='#b3f0ff'"
+                    onMouseOut="this.style.backgroundColor='white'"
+                    class="mt-3 text-indigo-500 inline-flex items-center"
+                    href="http://localhost:8000/Notes/table/CGMA/" target="_blank"> Notes </a>
+
+            </div>
+            <div
+                class="w-full sm:w-1/2 md:w-1/2 lg:w-1/4 px-4 py-4 mt-6 sm:mt-16 md:mt-20 lg:mt-24 bg-white shadow-lg rounded-lg dark:bg-gray-800">
+                <div class="flex-shrink-0">
+                    <div class="flex items-center mx-auto justify-center h-12 w-12 rounded-md bg-indigo-500 text-white">
+                        <svg width="20" height="20" fill="currentColor" class="h-6 w-6" viewBox="0 0 1792 1792"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M491 1536l91-91-235-235-91 91v107h128v128h107zm523-928q0-22-22-22-10 0-17 7l-542 542q-7 7-7 17 0 22 22 22 10 0 17-7l542-542q7-7 7-17zm-54-192l416 416-832 832h-416v-416zm683 96q0 53-37 90l-166 166-416-416 166-165q36-38 90-38 53 0 91 38l235 234q37 39 37 91z">
+                            </path>
+                        </svg>
+                    </div>
+                </div>
+                <h3 class="text-2xl sm:text-xl text-gray-700 font-semibold dark:text-white py-4">
+                    Artificial Intelligence
+                </h3>
+                <p class="text-md text-gray-500 dark:text-gray-300 py-4">
+                    Artificial Intelligence (AI) is intelligence demonstrated by machines, as opposed to the natural intelligence displayed by animals including humans.
+                </p>
+                <a id="anchor" onMouseOver="this.style.backgroundColor='#b3f0ff'"
+                    onMouseOut="this.style.backgroundColor='white'"
+                    class="mt-3 text-indigo-500 inline-flex items-center"
+                    href="http://localhost:8000/Notes/table/Artificial Intelligence/" target="_blank"> Notes </a>
+            </div>
+</body>
+</html>

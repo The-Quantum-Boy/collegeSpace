@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<!-- head started -->
+
+<head>
+  <title>add data</title>
+  <meta charset="UTF-8" />
+
+  <!-- <link rel="stylesheet" type="text/css" href="../css/main.css" /> -->
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
+
+  <!-- Optional theme -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" />
+
+  <link rel="stylesheet" href="{% static 'css/styles.css' %}" />
+
+  <!-- Latest compiled and minified JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <style type="text/css">
+    .message {
+      padding: 10px;
+      font-size: 15px;
+      font-style: bold;
+      color: black;
+    }
+  </style>
+</head>
+<!-- head ended -->
+
+<!-- body started -->
+
+<body>
+  
+  <!-- Menus started-->
+  <header>
+    
+      <!-- <h1>Online Attendance Management System 1.0</h1>
+      <div class="navbar">
+      <a href="signup.html">Create Users</a>
+      <a href="index.html">Add Data</a>
+      <a href=" ">Logout</a>
+
+    </div> -->
+  </header>
+  <!-- Menus ended -->
+  <div class="admintask">
+      <h3 class="text-center"><b>Add Data</b></h3>
+    </center>
+    <!-- Error or Success Message printint started -->
+    <div class="message"></div>
+    <!-- Error or Success Message printint ended -->
+
+    <!-- Content, Tables, Forms, Texts, Images started -->
+    <div class="content">
+      <!-- <center>
+            Select: <a href="#teacher">Teacher</a> | <a href="">Student</a>
+            <br />
+          </center> -->
+      
+          <div class="student " id="">
+      <center>
+        <form action="http://localhost:8000/Attendance/signup/" class="form-horizontal col-md-12 col-md-offset-1" method="post">
+          {% csrf_token %}
+          <center>
+            <h4><b>Add Student's Information </b></h3>
+          </center>
+          <br>
+
+          <div class="form-group">
+            <label for="input1" class="col-sm-3 control-label">Student Id</label>
+            <div class="col-sm-7">
+              <input type="text" name="st_id" class="form-control" id="input1" placeholder="Student Id" />
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="input1" class="col-sm-3 control-label">Student Name</label>
+            <div class="col-sm-7">
+              <input type="text" name="st_name" class="form-control" id="input1" placeholder="Student Name" />
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="input1" class="col-sm-3 control-label">Roll No</label>
+            <div class="col-sm-7">
+              <input type="text" name="st_rollno" class="form-control" id="input1" placeholder="Student Roll No" />
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="input1" class="col-sm-3 control-label">Semester</label>
+            <div class="col-sm-7">
+              <input type="text" name="st_sem" class="form-control" id="input1" placeholder="semester ex. Fall-15" />
+            </div>
+          </div>
+
+          <input type="submit" class="btn col-md-2 col-md-offset-8 " style="background-color: #9933ff; color:white;"
+            value="Add Student"/>
+        </form>
+        <p style="color:green;">{{data}}</p>
+      </center>
+      </div>
+      <br /><br /><br />
+
+      
+    </div>
+    <br />
+    <!-- Contents, Tables, Forms, Images ended -->
+    
+  </div>
+</body>
+<!-- Body ended  -->
+
+</html>

@@ -1,0 +1,306 @@
+<!doctype html>
+{% load static %}
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>College Notes</title>
+    <style>
+        #anchor {
+            color: black;
+            background-color: white;
+            padding: 8px;
+            margin: 2px;
+            border-radius: 3px;
+        }
+    </style>
+</head>
+
+<body style="background-color: #c4e0e5;">
+    <header class="text-gray-600 body-font">
+        <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+            <a class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round"
+                    stroke-linejoin="round" stroke-width="2" class="w-10 h-10 text-white p-2 bg-indigo-500 rounded-full"
+                    viewBox="0 0 24 24">
+                    <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
+                </svg>
+                <span class="ml-3 text-xl">College Notes</span>
+            </a>
+
+
+            <!-- <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-1" viewBox="0 0 24 24"> -->
+            <path d="M5 12h14M12 5l7 7-7 7"></path>
+            <!-- </svg> -->
+            </button>
+        </div>
+    </header>
+    <div class="sm:flex flex-wrap justify-center items-center text-center gap-8">
+        <div class="w-full sm:w-1/2 md:w-1/2 lg:w-1/4 px-4 py-4 bg-white mt-6  shadow-lg rounded-lg dark:bg-gray-800">
+            <div class="flex-shrink-0">
+                <div class="flex items-center mx-auto justify-center h-12 w-12 rounded-md bg-indigo-500 text-white">
+                    <svg width="20" height="20" fill="currentColor" class="h-6 w-6" viewBox="0 0 1792 1792"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M491 1536l91-91-235-235-91 91v107h128v128h107zm523-928q0-22-22-22-10 0-17 7l-542 542q-7 7-7 17 0 22 22 22 10 0 17-7l542-542q7-7 7-17zm-54-192l416 416-832 832h-416v-416zm683 96q0 53-37 90l-166 166-416-416 166-165q36-38 90-38 53 0 91 38l235 234q37 39 37 91z">
+                        </path>
+                    </svg>
+                </div>
+            </div>
+            <h3 class="text-2xl sm:text-xl text-gray-700 font-semibold dark:text-white py-4">
+                Data Structures
+            </h3>
+            <p class="text-md  text-gray-500 dark:text-gray-300 py-4">
+                A data structure is a specialized format for organizing, processing, retrieving and storing data
+            </p>
+            <a id="anchor" onMouseOver="this.style.backgroundColor='#b3f0ff'"
+                onMouseOut="this.style.backgroundColor='white'" class="mt-3 text-indigo-500 inline-flex items-center"
+                href="http://localhost:8000/Notes/table/Data Structure/" target="_blank"> Notes </a>
+        </div>
+        <div
+            class="w-full sm:w-1/2 md:w-1/2 lg:w-1/4 px-4 py-4 mt-6 sm:mt-16 md:mt-20 lg:mt-24 bg-white shadow-lg rounded-lg dark:bg-gray-800">
+            <div class="flex-shrink-0">
+                <div class="flex items-center mx-auto justify-center h-12 w-12 rounded-md bg-indigo-500 text-white">
+                    <svg width="20" height="20" fill="currentColor" class="h-6 w-6" viewBox="0 0 1792 1792"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M491 1536l91-91-235-235-91 91v107h128v128h107zm523-928q0-22-22-22-10 0-17 7l-542 542q-7 7-7 17 0 22 22 22 10 0 17-7l542-542q7-7 7-17zm-54-192l416 416-832 832h-416v-416zm683 96q0 53-37 90l-166 166-416-416 166-165q36-38 90-38 53 0 91 38l235 234q37 39 37 91z">
+                        </path>
+                    </svg>
+                </div>
+            </div>
+            <h3 class="text-2xl sm:text-xl text-gray-700 font-semibold dark:text-white py-4">
+                C++
+            </h3>
+            <p class="text-md text-gray-500 dark:text-gray-300 py-4">
+                OOP stands for Object-Oriented Programming. Procedural programming is about writing procedures or functions that perform operations on the data            </p>
+            <a id="anchor" onMouseOver="this.style.backgroundColor='#b3f0ff'"
+                onMouseOut="this.style.backgroundColor='white'" class="mt-3 text-indigo-500 inline-flex items-center"
+                href="http://localhost:8000/Notes/table/C++/" target="_blank"> Notes </a>
+
+        </div>
+        <div class="w-full sm:w-1/2 md:w-1/2 lg:w-1/4 mt-6  px-4 py-4 bg-white shadow-lg rounded-lg dark:bg-gray-800">
+            <div class="flex-shrink-0">
+                <div class="flex items-center mx-auto justify-center h-12 w-12 rounded-md bg-indigo-500 text-white">
+                    <svg width="20" height="20" fill="currentColor" class="h-6 w-6" viewBox="0 0 1792 1792"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M491 1536l91-91-235-235-91 91v107h128v128h107zm523-928q0-22-22-22-10 0-17 7l-542 542q-7 7-7 17 0 22 22 22 10 0 17-7l542-542q7-7 7-17zm-54-192l416 416-832 832h-416v-416zm683 96q0 53-37 90l-166 166-416-416 166-165q36-38 90-38 53 0 91 38l235 234q37 39 37 91z">
+                        </path>
+                    </svg>
+                </div>
+            </div>
+            <h3 class="text-2xl sm:text-xl text-gray-700 font-semibold dark:text-white py-4">
+                Web Technology
+            </h3>
+            <p class="text-md  text-gray-500 dark:text-gray-300 py-4">
+                Web technologies refers to the way computers/devices communicate. with each other using mark up languages.
+            </p>
+            <a id="anchor" onMouseOver="this.style.backgroundColor='#b3f0ff'"
+                onMouseOut="this.style.backgroundColor='white'" class="mt-3 text-indigo-500 inline-flex items-center"
+                href="http://localhost:8000/Notes/table/Web Technology/" target="_blank"> Notes </a>
+
+        </div>
+    </div>
+
+    <div class="sm:flex flex-wrap justify-center items-center text-center gap-8">
+        <div class="w-full sm:w-1/2 md:w-1/2 lg:w-1/4 px-4 py-4 bg-white mt-6  shadow-lg rounded-lg dark:bg-gray-800">
+            <div class="flex-shrink-0">
+                <div class="flex items-center mx-auto justify-center h-12 w-12 rounded-md bg-indigo-500 text-white">
+                    <svg width="20" height="20" fill="currentColor" class="h-6 w-6" viewBox="0 0 1792 1792"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M491 1536l91-91-235-235-91 91v107h128v128h107zm523-928q0-22-22-22-10 0-17 7l-542 542q-7 7-7 17 0 22 22 22 10 0 17-7l542-542q7-7 7-17zm-54-192l416 416-832 832h-416v-416zm683 96q0 53-37 90l-166 166-416-416 166-165q36-38 90-38 53 0 91 38l235 234q37 39 37 91z">
+                        </path>
+                    </svg>
+                </div>
+            </div>
+            <h3 class="text-2xl sm:text-xl text-gray-700 font-semibold dark:text-white py-4">
+                Software Enginering & Testing
+            </h3>
+            <p class="text-md  text-gray-500 dark:text-gray-300 py-4">
+                Software engineering is a systematic engineering approach to software development.
+            </p>
+            <a id="anchor" onMouseOver="this.style.backgroundColor='#b3f0ff'"
+                onMouseOut="this.style.backgroundColor='white'" class="mt-3 text-indigo-500 inline-flex items-center"
+                href="http://localhost:8000/Notes/table/Software Enginering & Testing/" target="_blank"> Notes </a>
+
+        </div>
+        <div
+            class="w-full sm:w-1/2 md:w-1/2 lg:w-1/4 px-4 py-4 mt-6 sm:mt-16 md:mt-20 lg:mt-24 bg-white shadow-lg rounded-lg dark:bg-gray-800">
+            <div class="flex-shrink-0">
+                <div class="flex items-center mx-auto justify-center h-12 w-12 rounded-md bg-indigo-500 text-white">
+                    <svg width="20" height="20" fill="currentColor" class="h-6 w-6" viewBox="0 0 1792 1792"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M491 1536l91-91-235-235-91 91v107h128v128h107zm523-928q0-22-22-22-10 0-17 7l-542 542q-7 7-7 17 0 22 22 22 10 0 17-7l542-542q7-7 7-17zm-54-192l416 416-832 832h-416v-416zm683 96q0 53-37 90l-166 166-416-416 166-165q36-38 90-38 53 0 91 38l235 234q37 39 37 91z">
+                        </path>
+                    </svg>
+                </div>
+            </div>
+            <h3 class="text-2xl sm:text-xl text-gray-700 font-semibold dark:text-white py-4">
+                Operating System
+            </h3>
+            <p class="text-md text-gray-500 dark:text-gray-300 py-4">
+                Time-sharing operating systems schedule tasks for efficient use of the system and may also include accounting software for cost allocation of processor time, mass storage, printing, and other resources.            </p>
+            <a id="anchor" onMouseOver="this.style.backgroundColor='#b3f0ff'"
+                onMouseOut="this.style.backgroundColor='white'" class="mt-3 text-indigo-500 inline-flex items-center"
+                href="http://localhost:8000/Notes/table/Operating System/" target="_blank"> Notes </a>
+
+        </div>
+        <div class="w-full sm:w-1/2 md:w-1/2 lg:w-1/4 mt-6  px-4 py-4 bg-white shadow-lg rounded-lg dark:bg-gray-800">
+            <div class="flex-shrink-0">
+                <div class="flex items-center mx-auto justify-center h-12 w-12 rounded-md bg-indigo-500 text-white">
+                    <svg width="20" height="20" fill="currentColor" class="h-6 w-6" viewBox="0 0 1792 1792"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M491 1536l91-91-235-235-91 91v107h128v128h107zm523-928q0-22-22-22-10 0-17 7l-542 542q-7 7-7 17 0 22 22 22 10 0 17-7l542-542q7-7 7-17zm-54-192l416 416-832 832h-416v-416zm683 96q0 53-37 90l-166 166-416-416 166-165q36-38 90-38 53 0 91 38l235 234q37 39 37 91z">
+                        </path>
+                    </svg>
+                </div>
+            </div>
+            <h3 class="text-2xl sm:text-xl text-gray-700 font-semibold dark:text-white py-4">
+                Environmental Science
+            </h3>
+            <p class="text-md  text-gray-500 dark:text-gray-300 py-4">
+                Environmental science is an interdisciplinary academic field that integrates physics, biology, and geography to the study of the environment
+            </p>
+            <a id="anchor" onMouseOver="this.style.backgroundColor='#b3f0ff'"
+                onMouseOut="this.style.backgroundColor='white'" class="mt-3 text-indigo-500 inline-flex items-center"
+                href="http://localhost:8000/Notes/table/Environmental Science/" target="_blank"> Notes </a>
+
+        </div>
+
+        <div class="sm:flex flex-wrap justify-center items-center text-center gap-8">
+            <div
+                class="w-full sm:w-1/2 md:w-1/2 lg:w-1/4 px-4 py-4 bg-white mt-6  shadow-lg rounded-lg dark:bg-gray-800">
+                <div class="flex-shrink-0">
+                    <div class="flex items-center mx-auto justify-center h-12 w-12 rounded-md bg-indigo-500 text-white">
+                        <svg width="20" height="20" fill="currentColor" class="h-6 w-6" viewBox="0 0 1792 1792"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M491 1536l91-91-235-235-91 91v107h128v128h107zm523-928q0-22-22-22-10 0-17 7l-542 542q-7 7-7 17 0 22 22 22 10 0 17-7l542-542q7-7 7-17zm-54-192l416 416-832 832h-416v-416zm683 96q0 53-37 90l-166 166-416-416 166-165q36-38 90-38 53 0 91 38l235 234q37 39 37 91z">
+                            </path>
+                        </svg>
+                    </div>
+                </div>
+                <h3 class="text-2xl sm:text-xl text-gray-700 font-semibold dark:text-white py-4">
+                    VB.NET using C#.NET
+                </h3>
+                <p class="text-md  text-gray-500 dark:text-gray-300 py-4">
+                    Visual Basic, originally called Visual Basic .NET, is a multi-paradigm, object-oriented programming language, implemented on .NET
+                </p>
+                <a id="anchor" onMouseOver="this.style.backgroundColor='#b3f0ff'"
+                    onMouseOut="this.style.backgroundColor='white'"
+                    class="mt-3 text-indigo-500 inline-flex items-center"
+                    href="http://localhost:8000/Notes/table/VB.NET/" target="_blank"> Notes </a>
+            </div>
+            <div
+                class="w-full sm:w-1/2 md:w-1/2 lg:w-1/4 px-4 py-4 mt-6 sm:mt-16 md:mt-20 lg:mt-24 bg-white shadow-lg rounded-lg dark:bg-gray-800">
+                <div class="flex-shrink-0">
+                    <div class="flex items-center mx-auto justify-center h-12 w-12 rounded-md bg-indigo-500 text-white">
+                        <svg width="20" height="20" fill="currentColor" class="h-6 w-6" viewBox="0 0 1792 1792"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M491 1536l91-91-235-235-91 91v107h128v128h107zm523-928q0-22-22-22-10 0-17 7l-542 542q-7 7-7 17 0 22 22 22 10 0 17-7l542-542q7-7 7-17zm-54-192l416 416-832 832h-416v-416zm683 96q0 53-37 90l-166 166-416-416 166-165q36-38 90-38 53 0 91 38l235 234q37 39 37 91z">
+                            </path>
+                        </svg>
+                    </div>
+                </div>
+                <h3 class="text-2xl sm:text-xl text-gray-700 font-semibold dark:text-white py-4">
+                    Network Security
+                </h3>
+                <p class="text-md text-gray-500 dark:text-gray-300 py-4">
+                    Network security consists of the policies, processes and practices adopted to prevent, detect and monitor unauthorized access, misuse, modification, or denial of a computer network and network-accessible resources.
+                </p>
+                <a id="anchor" onMouseOver="this.style.backgroundColor='#b3f0ff'"
+                    onMouseOut="this.style.backgroundColor='white'"
+                    class="mt-3 text-indigo-500 inline-flex items-center"
+                    href="http://localhost:8000/Notes/table/Network Security/" target="_blank"> Notes </a>
+
+            </div>
+            <div
+                class="w-full sm:w-1/2 md:w-1/2 lg:w-1/4 mt-6  px-4 py-4 bg-white shadow-lg rounded-lg dark:bg-gray-800">
+                <div class="flex-shrink-0">
+                    <div class="flex items-center mx-auto justify-center h-12 w-12 rounded-md bg-indigo-500 text-white">
+                        <svg width="20" height="20" fill="currentColor" class="h-6 w-6" viewBox="0 0 1792 1792"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M491 1536l91-91-235-235-91 91v107h128v128h107zm523-928q0-22-22-22-10 0-17 7l-542 542q-7 7-7 17 0 22 22 22 10 0 17-7l542-542q7-7 7-17zm-54-192l416 416-832 832h-416v-416zm683 96q0 53-37 90l-166 166-416-416 166-165q36-38 90-38 53 0 91 38l235 234q37 39 37 91z">
+                            </path>
+                        </svg>
+                    </div>
+                </div>
+                <h3 class="text-2xl sm:text-xl text-gray-700 font-semibold dark:text-white py-4">
+                    Numerical Method
+                </h3>
+                <p class="text-md  text-gray-500 dark:text-gray-300 py-4">
+                    A Numerical Method is a mathematical tool designed to solve numerical problems. 
+                </p>
+                <a id="anchor" onMouseOver="this.style.backgroundColor='#b3f0ff'"
+                    onMouseOut="this.style.backgroundColor='white'"
+                    class="mt-3 text-indigo-500 inline-flex items-center"
+                    href="http://localhost:8000/Notes/table/Numerical Method/" target="_blank"> Notes </a>
+
+            </div>
+        </div>
+
+        <div class="sm:flex flex-wrap justify-center items-center text-center gap-8">
+            <div
+                class="w-full sm:w-1/2 md:w-1/2 lg:w-1/4 px-4 py-4 bg-white mt-6  shadow-lg rounded-lg dark:bg-gray-800">
+                <div class="flex-shrink-0">
+                    <div class="flex items-center mx-auto justify-center h-12 w-12 rounded-md bg-indigo-500 text-white">
+                        <svg width="20" height="20" fill="currentColor" class="h-6 w-6" viewBox="0 0 1792 1792"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M491 1536l91-91-235-235-91 91v107h128v128h107zm523-928q0-22-22-22-10 0-17 7l-542 542q-7 7-7 17 0 22 22 22 10 0 17-7l542-542q7-7 7-17zm-54-192l416 416-832 832h-416v-416zm683 96q0 53-37 90l-166 166-416-416 166-165q36-38 90-38 53 0 91 38l235 234q37 39 37 91z">
+                            </path>
+                        </svg>
+                    </div>
+                </div>
+                <h3 class="text-2xl sm:text-xl text-gray-700 font-semibold dark:text-white py-4">
+                    Java
+                </h3>
+                <p class="text-md  text-gray-500 dark:text-gray-300 py-4">
+                    Java is a high-level, class-based, object-oriented programming language that is designed to have as few implementation dependencies as possible.
+                </p>
+                <a id="anchor" onMouseOver="this.style.backgroundColor='#b3f0ff'"
+                    onMouseOut="this.style.backgroundColor='white'"
+                    class="mt-3 text-indigo-500 inline-flex items-center"
+                    href="http://localhost:8000/Notes/table/Java/" target="_blank"> Notes </a>
+
+            </div>
+            <div
+                class="w-full sm:w-1/2 md:w-1/2 lg:w-1/4 px-4 py-4 mt-6 sm:mt-16 md:mt-20 lg:mt-24 bg-white shadow-lg rounded-lg dark:bg-gray-800">
+                <div class="flex-shrink-0">
+                    <div class="flex items-center mx-auto justify-center h-12 w-12 rounded-md bg-indigo-500 text-white">
+                        <svg width="20" height="20" fill="currentColor" class="h-6 w-6" viewBox="0 0 1792 1792"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M491 1536l91-91-235-235-91 91v107h128v128h107zm523-928q0-22-22-22-10 0-17 7l-542 542q-7 7-7 17 0 22 22 22 10 0 17-7l542-542q7-7 7-17zm-54-192l416 416-832 832h-416v-416zm683 96q0 53-37 90l-166 166-416-416 166-165q36-38 90-38 53 0 91 38l235 234q37 39 37 91z">
+                            </path>
+                        </svg>
+                    </div>
+                </div>
+                <h3 class="text-2xl sm:text-xl text-gray-700 font-semibold dark:text-white py-4">
+                    Business System & Application
+                </h3>
+                <p class="text-md text-gray-500 dark:text-gray-300 py-4">
+                    A business system is a defined set of principles, practices and procedures that are applied to specific activities to achieve a specific result.
+                </p>
+                <a id="anchor" onMouseOver="this.style.backgroundColor='#b3f0ff'"
+                    onMouseOut="this.style.backgroundColor='white'"
+                    class="mt-3 text-indigo-500 inline-flex items-center"
+                    href="http://localhost:8000/Notes/table/Business System & Application/" target="_blank"> Notes </a>
+
+            </div>
+            <div>
+            </div>
+
+
+
+</body>
+
+</html>
