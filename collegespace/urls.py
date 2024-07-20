@@ -23,7 +23,8 @@ from Attendance.urls import *
 from contactus.urls import *
 
 urlpatterns = [
-    path('www.HVPMcollegespace.com/',include('Home.urls')),
+    path('' , include('Home.urls')),
+   # path('www.HVPMcollegespace.com/',include('Home.urls')),
     path('Attendance/',include('Attendance.urls')),
     path('Quepaper/',include('Quepaper.urls')),
     path('Notes/',include('Notes.urls')),
